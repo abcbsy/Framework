@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DALFactory</id>
+    <version>1.0.0</version>
+    <authors>DALFactory</authors>
+    <owners>DALFactory</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="2.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\DALFactory.dll" target="lib\netstandard2.0\DALFactory.dll" />
+  </files>
+</package>

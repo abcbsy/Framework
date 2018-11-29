@@ -1,0 +1,13 @@
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\SqlServerDAL.deps.json
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\SqlServerDAL.dll
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\SqlServerDAL.pdb
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\Common.dll
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\DALFactory.dll
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\Common.pdb
+H:\Projects\Framework\SqlServerDAL\bin\Release\netstandard2.0\DALFactory.pdb
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.csprojResolveAssemblyReference.cache
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.csproj.CoreCompileInputs.cache
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.AssemblyInfoInputs.cache
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.AssemblyInfo.cs
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.dll
+H:\Projects\Framework\SqlServerDAL\obj\Release\netstandard2.0\SqlServerDAL.pdb

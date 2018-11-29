@@ -1,0 +1,11 @@
+H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\DALFactory.deps.json
+H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\DALFactory.dll
+H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\DALFactory.pdb
+H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\Common.dll
+H:\Projects\Framework\DALFactory\bin\Release\netstandard2.0\Common.pdb
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.csprojResolveAssemblyReference.cache
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.csproj.CoreCompileInputs.cache
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.AssemblyInfoInputs.cache
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.AssemblyInfo.cs
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.dll
+H:\Projects\Framework\DALFactory\obj\Release\netstandard2.0\DALFactory.pdb

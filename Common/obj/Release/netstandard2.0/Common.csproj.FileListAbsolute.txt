@@ -1,0 +1,9 @@
+H:\Projects\Framework\Common\bin\Release\netstandard2.0\Common.deps.json
+H:\Projects\Framework\Common\bin\Release\netstandard2.0\Common.dll
+H:\Projects\Framework\Common\bin\Release\netstandard2.0\Common.pdb
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.csprojResolveAssemblyReference.cache
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.AssemblyInfoInputs.cache
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.AssemblyInfo.cs
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.dll
+H:\Projects\Framework\Common\obj\Release\netstandard2.0\Common.pdb
