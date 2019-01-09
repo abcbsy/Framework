@@ -3,7 +3,7 @@ using System.Data;
 using System.Collections.Generic;
 using Common;
 
-namespace Model
+namespace UsersCenter.Models
 {
 	///<summary>
 	///¿‡√˚£∫UsersInfo

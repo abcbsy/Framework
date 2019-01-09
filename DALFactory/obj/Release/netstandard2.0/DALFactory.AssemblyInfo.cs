@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("DALFactory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DALFactory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DALFactory")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

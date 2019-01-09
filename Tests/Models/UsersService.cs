@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 using DALFactory;
+using UsersCenter.IDAL;
+using UsersCenter.Models;
 
-namespace BLL
+namespace UsersCenter.Services
 {
 	///<summary>
 	///类名：Users
@@ -14,19 +16,19 @@ namespace BLL
 	///用途说明：数据表Users的业务类
 	///修改记录：
 	///</summary>
-    public class UsersService: DALFactory.BLLClass<Model.UsersInfo>
+    public class UsersService: DALFactory.BLLClass<UsersInfo>
     {
         #region 框架的必要代码
         private readonly string DbConnectionName = "DefaultConnection";
-        private IDAL.IUsers dal;
+        private IUsersDAL dal;
         public UsersService()
         {
             base.InitDAL(this.DbConnectionName);
-            dal = DataAccess.CreateExtendDALClass<IDAL.IUsers>(this.DbConnectionName);
+            dal = DataAccess.CreateExtendDALClass<IUsersDAL>(this.DbConnectionName);
 
         }
         #endregion
-        
+
         /// <summary>
         /// 搜索
         /// </summary>
@@ -37,9 +39,10 @@ namespace BLL
         /// <param name="recordCount"></param>
         /// <param name="pageCount"></param>
         /// <returns></returns>
-        public DataTable Search(Model.UsersInfo objWhere, string order, int curPage, int pageSize, out int recordCount, out int pageCount)
+        public DataTable Search(UsersInfo objWhere, string order, int curPage, int pageSize, out int recordCount, out int pageCount)
         {
             return dal.Search(objWhere, order, curPage, pageSize, out recordCount, out pageCount);
         }
+        
     }
 }

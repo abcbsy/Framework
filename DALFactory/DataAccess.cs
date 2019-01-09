@@ -34,8 +34,9 @@ namespace DALFactory
         {
             Type type = typeof(T);
             var setting = ConfigurationManager.Configuration.GetSection($"ConnectionStrings:{DbConnectionName}");
-            string assemblyName = setting["ProviderName"];
+            string assemblyName = "SqlServerDAL";
             string typeName = string.Format("{0}.DALClass`1[[{1}]]", assemblyName, type.AssemblyQualifiedName);
+            Console.WriteLine("CreateDALClass:" + typeName);
             IDALClass<T> objType = (IDALClass<T>)CreateObject(setting, typeName, assemblyName);
             return objType;
         }
@@ -48,6 +49,7 @@ namespace DALFactory
             var setting = ConfigurationManager.Configuration.GetSection($"ConnectionStrings:{DbConnectionName}");
             string assemblyName = setting["ProviderName"];
             string typeName = string.Format("{0}.{1}", assemblyName, type.Name.Substring(1));
+            Console.WriteLine("CreateExtendDALClass:" + typeName);
             object objType = CreateObject(setting, typeName, assemblyName);
             return (T)objType;
         }

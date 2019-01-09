@@ -5496,7 +5496,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
@@ -5521,6 +5521,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "H:\\Projects\\Framework\\Release": {},
         "http://10.2.21.66:88/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },

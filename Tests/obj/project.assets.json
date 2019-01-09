@@ -2569,7 +2569,7 @@
           "bin/placeholder/Common.dll": {}
         }
       },
-      "DALFactory/1.0.0": {
+      "DALFactory/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2588,7 +2588,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Common": "1.0.0",
-          "DALFactory": "1.0.0",
+          "DALFactory": "1.0.2",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "System.Data.SqlClient": "4.5.1"
         },
@@ -8089,7 +8089,7 @@
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
     },
-    "DALFactory/1.0.0": {
+    "DALFactory/1.0.2": {
       "type": "project",
       "path": "../DALFactory/DALFactory.csproj",
       "msbuildProject": "../DALFactory/DALFactory.csproj"
@@ -8103,7 +8103,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Common >= 1.0.0",
-      "DALFactory >= 1.0.0",
+      "DALFactory >= 1.0.2",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.Extensions.Configuration >= 2.1.1",
@@ -8144,6 +8144,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "H:\\Projects\\Framework\\Release": {},
         "http://10.2.21.66:88/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },

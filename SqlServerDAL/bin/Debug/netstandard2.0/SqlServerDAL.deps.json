@@ -10,7 +10,7 @@
       "SqlServerDAL/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
-          "DALFactory": "1.0.0",
+          "DALFactory": "1.0.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "NETStandard.Library": "2.0.0",
           "System.Data.SqlClient": "4.5.1"
@@ -1071,7 +1071,7 @@
           "Common.dll": {}
         }
       },
-      "DALFactory/1.0.0": {
+      "DALFactory/1.0.1": {
         "dependencies": {
           "Common": "1.0.0",
           "Microsoft.Extensions.Configuration": "2.1.1"
@@ -1835,7 +1835,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DALFactory/1.0.0": {
+    "DALFactory/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

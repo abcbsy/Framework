@@ -1,10 +1,11 @@
-using BLL;
 using CacheManager.Core;
 using CacheManager.Serialization.Json;
 using Common;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using UsersCenter.Models;
+using UsersCenter.Services;
 
 namespace Tests
 {
@@ -16,6 +17,7 @@ namespace Tests
         {
             Startup();
             UsersService service = new UsersService();
+            var obj = service.GetObject(new UsersInfo() { UserAccount = "jack", Password = StringEncrypt.EncryptWithMD5("123456") });
             var m = service.GetObject(1);
         }
 
@@ -27,6 +29,7 @@ namespace Tests
             var Configuration = builder.Build();
 
             ConfigurationManager.Config(Configuration);
+
             Common.CacheManager.ConfigMemoryCache(new MemoryCache(new MemoryCacheOptions()));
             Common.CacheManager.ConfigMultilevelCache(CacheManager.Core.CacheFactory.Build("UsersCenter", settings =>
             {

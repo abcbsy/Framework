@@ -1,18 +1,19 @@
 using System;
 using System.Data;
 using System.Collections.Generic;
+using UsersCenter.Models;
 
-namespace IDAL
+namespace UsersCenter.IDAL
 {
-	///<summary>
-	///接口名：IUsers
-	///公司名称：V-Life
-	///作者：曾璐（abcbsy@163.com）
-	///创建日期：2018/11/28 15:10:26
-	///用途说明：数据表Users的访问类借口
-	///修改记录：
-	///</summary>
-	public interface IUsers
+    ///<summary>
+    ///接口名：IUsersDAL
+    ///公司名称：V-Life
+    ///作者：曾璐（abcbsy@163.com）
+    ///创建日期：2018/12/04 13:49:02
+    ///用途说明：数据表Users的访问类借口
+    ///修改记录：
+    ///</summary>
+    public interface IUsersDAL
 	{
         /// <summary>
         /// 搜索
@@ -24,6 +25,6 @@ namespace IDAL
         /// <param name="recordCount"></param>
         /// <param name="pageCount"></param>
         /// <returns></returns>
-        DataTable Search(Model.UsersInfo objWhere, string order, int curPage, int pageSize, out int recordCount, out int pageCount);
+        DataTable Search(UsersInfo objWhere, string order, int curPage, int pageSize, out int recordCount, out int pageCount);
 	}
 }
